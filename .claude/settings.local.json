@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:victorchen96.github.io)",
+      "Bash(curl *)",
+      "Bash(bash)",
+      "Bash(mkdir -p /home/heling/.mcporter)",
+      "Bash(cp /home/heling/main/deli-autoresearch/config/mcporter.json /home/heling/.mcporter/mcporter.json)",
+      "Bash(mkdir -p '/home/heling/.config/yt-dlp')",
+      "Read(//home/heling/.config/yt-dlp/**)",
+      "Bash(printf '%s\\\\n' '--js-runtimes node')",
+      "Read(//home/heling/.claude/**)",
+      "Read(//home/heling/.agents/skills/**)",
+      "Skill(loop)",
+      "Skill(schedule)",
+      "Bash(gh repo *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}

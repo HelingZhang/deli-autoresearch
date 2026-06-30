@@ -1,0 +1,11 @@
+{
+  "task": "warp-drive-survey",
+  "iteration": 0,
+  "total_findings": 0,
+  "status": "initialized",
+  "stale_count": 0,
+  "current_milestone": "M1",
+  "last_seen": "",
+  "last_direction": "",
+  "nudge_count": 0
+}
